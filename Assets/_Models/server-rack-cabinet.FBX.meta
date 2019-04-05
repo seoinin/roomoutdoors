@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: f0816e64349ecb148a6b7215176ecb31
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera001
+    100002: Camera001.Target
+    100004: door- front glass
+    100006: door-back
+    100008: door-back handle
+    100010: door-back lock
+    100012: door-front
+    100014: door-front handle
+    100016: door-front hardware
+    100018: door-front lock
+    100020: dorr-back glass
+    100022: Dummy-door back
+    100024: Dummy001
+    100026: feet
+    100028: floor
+    100030: frame
+    100032: frame hardware
+    100034: mr Area Spot001
+    100036: mr Area Spot001.Target
+    100038: panel handle left
+    100040: panel handle01
+    100042: panel hardware right
+    100044: panel hardware-left
+    100046: panel-left
+    100048: panel-right
+    100050: panel-top
+    100052: rails
+    100054: //RootNode
+    100056: Sky001
+    100058: Sphere001
+    400000: Camera001
+    400002: Camera001.Target
+    400004: door- front glass
+    400006: door-back
+    400008: door-back handle
+    400010: door-back lock
+    400012: door-front
+    400014: door-front handle
+    400016: door-front hardware
+    400018: door-front lock
+    400020: dorr-back glass
+    400022: Dummy-door back
+    400024: Dummy001
+    400026: feet
+    400028: floor
+    400030: frame
+    400032: frame hardware
+    400034: mr Area Spot001
+    400036: mr Area Spot001.Target
+    400038: panel handle left
+    400040: panel handle01
+    400042: panel hardware right
+    400044: panel hardware-left
+    400046: panel-left
+    400048: panel-right
+    400050: panel-top
+    400052: rails
+    400054: //RootNode
+    400056: Sky001
+    400058: Sphere001
+    2000000: Camera001
+    2100000: white Matte_Shadow-MR
+    2100002: 13 - Default
+    2100004: paint glossy-MR
+    2100006: glass
+    2100008: dark grey plastic
+    2100010: metal satin-MR
+    2100012: 01 - Default
+    2300000: door- front glass
+    2300002: door-back
+    2300004: door-back handle
+    2300006: door-back lock
+    2300008: door-front
+    2300010: door-front handle
+    2300012: door-front hardware
+    2300014: door-front lock
+    2300016: dorr-back glass
+    2300018: feet
+    2300020: floor
+    2300022: frame
+    2300024: frame hardware
+    2300026: panel handle left
+    2300028: panel handle01
+    2300030: panel hardware right
+    2300032: panel hardware-left
+    2300034: panel-left
+    2300036: panel-right
+    2300038: panel-top
+    2300040: rails
+    2300042: Sphere001
+    3300000: door- front glass
+    3300002: door-back
+    3300004: door-back handle
+    3300006: door-back lock
+    3300008: door-front
+    3300010: door-front handle
+    3300012: door-front hardware
+    3300014: door-front lock
+    3300016: dorr-back glass
+    3300018: feet
+    3300020: floor
+    3300022: frame
+    3300024: frame hardware
+    3300026: panel handle left
+    3300028: panel handle01
+    3300030: panel hardware right
+    3300032: panel hardware-left
+    3300034: panel-left
+    3300036: panel-right
+    3300038: panel-top
+    3300040: rails
+    3300042: Sphere001
+    4300000: floor
+    4300002: Sphere001
+    4300004: door-front
+    4300006: door- front glass
+    4300008: door-front handle
+    4300010: door-front lock
+    4300012: door-front hardware
+    4300014: door-back
+    4300016: dorr-back glass
+    4300018: door-back handle
+    4300020: door-back lock
+    4300022: panel-top
+    4300024: rails
+    4300026: feet
+    4300028: frame hardware
+    4300030: frame
+    4300032: panel-left
+    4300034: panel handle left
+    4300036: panel hardware-left
+    4300038: panel-right
+    4300040: panel handle01
+    4300042: panel hardware right
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: mr Area Spot001
+    10800002: Sky001
+    6000828045688606266: Camera001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
