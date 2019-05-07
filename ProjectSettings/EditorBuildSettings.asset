@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/Scenes2/ROintro.unity
+    guid: ea0f7fa84c8ca584295be08ecbec47e8
+  - enabled: 1
     path: Assets/_Scenes/Splash.unity
     guid: bdec277053d8d864eb17c8b0928d505e
   - enabled: 0
     path: Assets/_Scenes/MainMenu.unity
     guid: f61d0c2fad179294bb4a5e491e2a48f0
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/RoomOutdoors.unity
     guid: caca0804cc403134d8e3e51467b448bf
   - enabled: 0
@@ -20,6 +23,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/About.unity
     guid: edcfa9601f55d3642b2ea3359a52bfb4
+  - enabled: 1
+    path: Assets/_Scenes/Scenes2/RoomOutdoors2.unity
+    guid: 51c54bd8dcc1d5c4cb7b3a4cd616e3fa
+  - enabled: 1
+    path: Assets/_Scenes/Scenes2/Products.unity
+    guid: 5166bcab9a4ee3a4f92fe0db88305e82
+  - enabled: 1
+    path: Assets/_Scenes/Scenes2/GardenRooms.unity
+    guid: dac7948f237cb9245a1e0824c3b9808d
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 14496fb771b73e54b877be9ffff52f63,
       type: 2}

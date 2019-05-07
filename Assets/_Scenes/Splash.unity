@@ -1838,4 +1838,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 5
-  SceneToLoad: RoomOutdoors
+  SceneToLoad: RoomOutdoors2
