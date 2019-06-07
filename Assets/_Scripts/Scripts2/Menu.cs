@@ -41,10 +41,10 @@ public class Menu : MonoBehaviour {
         SceneManager.LoadScene("Furniture");
     }
 
-    public void Favourites()
+    public void Home()
     {
 
-        SceneManager.LoadScene("Favourites");
+        SceneManager.LoadScene("Home");
     }
 
     public void Carports()
@@ -59,6 +59,26 @@ public class Menu : MonoBehaviour {
         SceneManager.LoadScene("Awnings");
     }
 
+    public void ROintro()
+    {
+
+        SceneManager.LoadScene("ROintro");
+    }
+
+
+    public void OpenURL()
+    {
+        Application.OpenURL("https://www.roomoutdoors.ie/");
+
+    }
+
+    public void OpenBrochure()
+    {
+        Application.OpenURL("https://view.publitas.com/datatrace/roomoutdoors/page/1");
+
+    }
+
+
     public void QuitApp()
     {
         Debug.Log("Quit!");
@@ -66,4 +86,21 @@ public class Menu : MonoBehaviour {
 
 
     }
+
+    public override int GetHashCode()
+    {
+        return base.GetHashCode();
+    }
+
+    public override bool Equals(object other)
+    {
+        return base.Equals(other);
+    }
+
+    public override string ToString()
+    {
+        return base.ToString();
+    }
+
+
 }

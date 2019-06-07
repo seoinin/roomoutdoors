@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/_Scenes/Scenes2/ROintro.unity
     guid: ea0f7fa84c8ca584295be08ecbec47e8
   - enabled: 1
+    path: Assets/_Scenes/Scenes2/Home.unity
+    guid: 5cb3a7d8e39a57d48843a17d5910c517
+  - enabled: 1
+    path: Assets/_Scenes/Scenes2/Products.unity
+    guid: 5166bcab9a4ee3a4f92fe0db88305e82
+  - enabled: 1
+    path: Assets/_Scenes/Scenes2/GardenCabins.unity
+    guid: b40464787e5efcc4b9cb6ce3042d558d
+  - enabled: 1
+    path: Assets/_Scenes/Scenes2/RoomOutdoors2.unity
+    guid: 51c54bd8dcc1d5c4cb7b3a4cd616e3fa
+  - enabled: 0
     path: Assets/_Scenes/Splash.unity
     guid: bdec277053d8d864eb17c8b0928d505e
   - enabled: 0
@@ -23,13 +35,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/About.unity
     guid: edcfa9601f55d3642b2ea3359a52bfb4
-  - enabled: 1
-    path: Assets/_Scenes/Scenes2/RoomOutdoors2.unity
-    guid: 51c54bd8dcc1d5c4cb7b3a4cd616e3fa
-  - enabled: 1
-    path: Assets/_Scenes/Scenes2/Products.unity
-    guid: 5166bcab9a4ee3a4f92fe0db88305e82
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Scenes2/GardenRooms.unity
     guid: dac7948f237cb9245a1e0824c3b9808d
   m_configObjects:

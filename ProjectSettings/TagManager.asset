@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Rack
   - RailRef
+  - Toggle Bg
+  - OnText
+  - Handle
+  - Off Text
+  - Furnituremenu
   layers:
   - Default
   - TransparentFX
