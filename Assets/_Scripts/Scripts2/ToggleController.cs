@@ -31,8 +31,8 @@ public class ToggleController : MonoBehaviour
 
 	private bool switching = false;
 
-   // public GameObject furn;
-   // private RectTransform Sidemenu;
+    public GameObject vr;
+    private RectTransform vrback;
 
 
 	void Awake()
@@ -43,7 +43,7 @@ public class ToggleController : MonoBehaviour
 		float toggleSizeX = toggle.sizeDelta.x;
 		onPosX = (toggleSizeX / 2) - (handleSize/2) - handleOffset;
 		offPosX = onPosX * -1;
-       // Sidemenu = furn.GetComponent<RectTransform>();
+        vrback = vr.GetComponent<RectTransform>();
     }
 
 
@@ -103,15 +103,17 @@ public class ToggleController : MonoBehaviour
 			Transparency (onIcon, 1f, 0f);
 			Transparency (offIcon, 0f, 1f);
 			handleTransform.localPosition = SmoothMove(handle, onPosX, offPosX);
-            
+            vrback.gameObject.SetActive(true);
         }
 		else 
 		{
+
 			toggleBgImage.color = SmoothColor(offColorBg, onColorBg);
 			Transparency (onIcon, 0f, 1f);
 			Transparency (offIcon, 1f, 0f);
 			handleTransform.localPosition = SmoothMove(handle, offPosX, onPosX);
-            
+            vrback.gameObject.SetActive(false);
+
         }
 			
 	}
@@ -162,5 +164,9 @@ public class ToggleController : MonoBehaviour
 
 		}
 	}
+
+    
+
+
 
 }

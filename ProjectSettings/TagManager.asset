@@ -11,6 +11,7 @@ TagManager:
   - Handle
   - Off Text
   - Furnituremenu
+  - brightness
   layers:
   - Default
   - TransparentFX
