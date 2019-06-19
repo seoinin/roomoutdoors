@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class TimedLoadScene : MonoBehaviour {
 
+    public Animator animator;
+    public float delay;
+    public string SceneToLoad = "Home";
 
 
-    public float delay = 5;
-    public string SceneToLoad = "MainMenu";
     void Start()
     {
         StartCoroutine(LoadLevelAfterDelay(delay));
@@ -17,13 +18,25 @@ public class TimedLoadScene : MonoBehaviour {
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(SceneToLoad);
+        Fadetoscene();
     }
 
  
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+   
+    }
+
+
+    public void Fadetoscene() {
+
+        animator.SetTrigger("Fadeout");
+
+    }
+
+    public void Onfadecomplete() {
+
+        SceneManager.LoadScene(SceneToLoad);
+    }
 }

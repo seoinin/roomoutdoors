@@ -4,13 +4,12 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Slider : MonoBehaviour, IPointerDownHandler,
+public class SliderROScript : MonoBehaviour, IPointerDownHandler,
     IPointerUpHandler
 {
 
     public CanvasGroup slideropacity;
     private bool pressed = false;
-
 
     private void Awake()
     {
